@@ -329,7 +329,7 @@ def conv_out(model, layer_name):
             return l.output
 
 num_classes = 11
-def grad_cam(input_model, img, category_index, layer_name):
+def grad_cam++(input_model, img, category_index, layer_name):
     global conv_output
     ori_img = img
     nb_classes = num_classes
